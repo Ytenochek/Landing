@@ -6,6 +6,7 @@ import pygame
 pygame.init()
 size = width, height = 500, 500
 screen = pygame.display.set_mode(size)
+pygame.display.set_caption("Высадка десанта")
 all_sprites = pygame.sprite.Group()
 
 
